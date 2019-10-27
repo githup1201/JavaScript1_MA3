@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 1</title>
+</head>
+<body>
+
+ <div class="container">
+      <form id="form" action="/action_page.php" method="post">
+         
+         <label for="fname">First Name</label>
+         <input type="text" id=fname name="firstname" required placeholder="Your name..">
+         
+         <label for="lname">Last Name</label>
+         <input type="text" id=lname name="last name" required placeholder="Your last name..">
+          
+         <label for="phonenumber">Phone number</label>
+         <input type="text" id=phone name="phonenumber">
+          
+         <label for="email">Email</label>
+         <input type="text" id=email name="emailaddress" placeholder="Your email..">
+                
+         <label for="message">Message</label>
+         <input type="text" id=message name="messagebox" placeholder="Write something..">
+          
+         <input type="submit" value="Submit" onsubmit="return validateEmail()">
+     </form>  
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

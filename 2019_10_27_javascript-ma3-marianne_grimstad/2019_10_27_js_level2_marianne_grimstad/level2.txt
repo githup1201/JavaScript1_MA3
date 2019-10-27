@@ -1,0 +1,37 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+JavaScript Code Style is a guideline for programming. When naming variables and functions, the names that identify them is written in camelCase. That means it allways start with a lowercase letter and      change to uppercase for the next words with no space between them. When using operators like = + - * /, we allways put a space around them. The same is for after commas. When writing codeblocks we use 2 spaces from the left. Simple statements allways end with a semicolon. The rules for complex statements is to put the opening curly bracket at the end of the first line, and putting one space before. The closing bracket is put on a new linewithout space. Complex statements don't end with a semicolon.
+
+2. What is a Regular Expression?
+A regular expression is a pattern. It uses special code to detect patterns in string of   text. The syntax is to put a forward slash / at the start and the end.
+
+3. What does the .random() method do?
+The .random() method returns a random number between 0 and 1. It's syntax is Math.random();
+
+4. What does the .sort() method do?
+The .sort() method sorts the elements of an array. It's syntax is array.sort();5. What does the .reverse() method do?
+
+5. What does the .reverse() method do?
+The .reverse() method reverses the elements of an array. The first element becomes the last and the last becomes first. It's syntax is array.reverse();
+
+6. List two examples of bad JavaScript code.
+-JavaScript will turn one of the values to be the same when using the double equal sign. 
+
+if ("6" == 6) //return true
+
+-Not using the var statement to define variables, then the variables will be a part of the global scope.
+
+foo = 3; // NO
+var foo = 3; // YES
+
+7. What data types can a JSON object contain?
+A JSON object can contain these six datatypes: Objects, Arrays, Strings, Numbers, Booleans, Null.
+
+8. What is minifying JavaScript Code?
+It is removing all unnecessary characters from code to save space, but not changing their functionality. Like white space, new line and comments.
+
+9. What is a global variable?
+A global variable is a variable that is defined outside of functions. A global variable can be used by any function, and this can cause trouble in your code. Meaning that if the gobal variable is changed (by using it in a function and assigning a value to it inside the function), it will change the global variable.
